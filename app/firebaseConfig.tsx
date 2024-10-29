@@ -1,21 +1,14 @@
 
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
-
-const apiKey = process.env.REACT_APP_API_KEY;
-const authDomain = process.env.AUTH_DOMAIN;
-const projectId = process.env.PROJECT_ID;
-const storageBucket = process.env.STORAGE_BUCKET;
-const messagingSenderId = process.env.MESSAGING_SENDER_ID;
-const appId = process.env.APP_ID;
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: apiKey,
-  authDomain: authDomain,
-  projectId: projectId,
-  storageBucket: storageBucket,
-  messagingSenderId: messagingSenderId,
-  appId: appId
+  apiKey: "AIzaSyCxEc6pB-nDkzeVWzYxIIK2Ozp2t-dYMOk",
+  authDomain: "sticky-note-99.firebaseapp.com",
+  projectId: "sticky-note-99",
+  storageBucket: "sticky-note-99.appspot.com",
+  messagingSenderId: "779960456963",
+  appId: "1:779960456963:web:d0dd8224f35c5a60e8bb36"
 };
 
 
